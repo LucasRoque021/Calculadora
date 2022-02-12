@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/math_backgroundV3.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+  
+}
+
+.calculadora {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 25%;
+  width: 80%;
+  min-height: 300px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aqua;
+}
+
+hr {
+  color: aqua;
+}
+
+@media (max-width:375px) {
+  h1{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .inputs input,
+  select {
+    margin-bottom: 3px;
+  }
+  .calculadora{
+    height: 400px;
+  }
+}
